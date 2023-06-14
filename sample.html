@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function welcome(){
+            document.write("<h1>You have logged in successfully</h1>");
+        }
+    </script>
+</head>
+<body>
+    
+    <div>
+        <h1>Login Form</h1>
+        <form action="" >
+            <div class="details">
+                <label><b>Name:</b></label><br>
+                <input type="text" placeholder="User name" required><br><br>
+                <label><b>Email:</b></label><br>
+                <input type="email" placeholder="Email" required><br><br>
+                <label><b>Password :</b></label><br>
+                <input type="password"  placeholder="Password" required><br><br>
+                <input type="submit" value="submit" onclick="welcome()">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
